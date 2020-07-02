@@ -1,5 +1,11 @@
 package filter;
 
+/*
+ * Classe responsável por inteceptar requisições do projeto, de qualquer tela.
+ * @author: Juman Fernandes Santos Sousa
+ * 
+ */
+
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;

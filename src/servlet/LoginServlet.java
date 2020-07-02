@@ -1,5 +1,11 @@
 package servlet;
 
+/*
+ * Servlet responsável pelo Login
+ * @author: Juman Fernandes Santos Sousa
+ * 
+ */
+
 import java.io.IOException;
 
 import javax.servlet.RequestDispatcher;

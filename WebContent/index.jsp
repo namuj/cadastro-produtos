@@ -1,6 +1,10 @@
 <jsp:useBean id="calcula" class="beans.BeanCadastroProdutos" type="beans.BeanCadastroProdutos" scope="page"></jsp:useBean>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+#
+<!-- Tela HTML de Login
+ 	 @author: Juman Fernandes Santos Sousa
+  -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>

@@ -1,4 +1,9 @@
 package dao;
+/*
+ * Classe resoponsavel por se comunicar com o Banco de Dados através de uma Query para validar o Login
+ * @author: Juman Fernandes Santos Sousa
+ * 
+ */
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
