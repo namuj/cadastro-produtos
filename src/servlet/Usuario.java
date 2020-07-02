@@ -38,9 +38,15 @@ public class Usuario extends HttpServlet {
 			view.forward(request, response);
 		}
 		else if(acao.equalsIgnoreCase("edit")){
+			
 			BeanCadastroProdutos beanCadastroProdutos = daoUsuario.consultar(user);
+			
 			RequestDispatcher view = request.getRequestDispatcher("/cadastroUsuario.jsp");
 			request.setAttribute("user",beanCadastroProdutos );
+			view.forward(request, response);
+		}else if (acao.equalsIgnoreCase("listartodos")) {
+			RequestDispatcher view = request.getRequestDispatcher("/cadastroUsuario.jsp");
+			request.setAttribute("usuarios", daoUsuario.listar());
 			view.forward(request, response);
 		}
 		}catch(Exception e) {

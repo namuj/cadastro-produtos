@@ -11,7 +11,7 @@
 <div class="barra">
 <center>
 		<a href="home.jsp" ><img src="resources/img/Home.svg" alt="Página Inicial" title="Home" witdth="100px" height="100px">
-		<a href="cadastroUsuario.jsp" ><img src="resources/img/Usuario.svg" alt="Usuário" title="Usuario" witdth="100px" height="100px">
+		<a href="salvarUsuario?acao=listartodos" ><img src="resources/img/Usuario.svg" alt="Usuário" title="Usuario" witdth="100px" height="100px">
 		<a href="acessonegado.jsp" ><img src="resources/img/Estoque.svg" alt="Estoque" title="Estoque" witdth="100px" height="100px">
 		<a href="acessonegado.jsp" ><img src="resources/img/Relatorios.svg" alt="Relatórios" title="Relatorio" witdth="100px" height="100px">
 		<a href="acessonegado.jsp" ><img src="resources/img/Calendario.svg" alt="Calendário" title="Calendario" witdth="100px" height="100px">

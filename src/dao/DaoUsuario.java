@@ -57,9 +57,9 @@ public class DaoUsuario {
 		return lista;
 	}
 	
-	public void delete (String login) {
+	public void delete (String id) {
 		try {
-			String sql="delete from usuario where login ='"+login+"'";
+			String sql="delete from usuario where id ='"+id+"'";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.execute();
 			connection.commit();
@@ -74,8 +74,8 @@ public class DaoUsuario {
 		}
 	}
 
-	public BeanCadastroProdutos consultar(String login) throws Exception {
-		String sql = "select * from usuario where login='"+login+"'";
+	public BeanCadastroProdutos consultar(String id) throws Exception {
+		String sql = "select * from usuario where id='"+id+"'";
 		PreparedStatement preparedStatement = connection.prepareStatement(sql);
 		ResultSet resultSet =preparedStatement.executeQuery();
 		if(resultSet.next()) {
